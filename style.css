@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.square-box{
+    width: 1000px;
+    height: 1000px;
+}
+
+.game{
+    width: 700px;
+    height: 700px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+#target{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+body{
+    background-color: rgb(83, 83, 83);
+}
+
